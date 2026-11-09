@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Spec fixtures are not secrets"
+paths = [
+  '''^spec/''',
+]
